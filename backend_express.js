@@ -9,7 +9,7 @@ dotenv.config();
 
 const { Pool } = pkg;
 const app = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 9001;
 const SECRET_KEY = process.env.JWT_SECRET || 'fallbacksecretkey';
 
 app.use(cors());
